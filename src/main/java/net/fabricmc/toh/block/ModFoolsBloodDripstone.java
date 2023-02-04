@@ -57,32 +57,6 @@ public class ModFoolsBloodDripstone extends PointedDripstoneBlock {
         return canPlaceAtWithDirection(world, pos, (Direction)state.get(VERTICAL_DIRECTION));
     }
 
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
-        if ((Boolean)state.get(WATERLOGGED)) {
-            world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
-        }
-
-        if (direction != Direction.UP && direction != Direction.DOWN) {
-            return state;
-        } else {
-            Direction direction2 = (Direction)state.get(VERTICAL_DIRECTION);
-            if (direction2 == Direction.DOWN && world.getBlockTickScheduler().isQueued(pos, this)) {
-                return state;
-            } else if (direction == direction2.getOpposite() && !this.canPlaceAt(state, world, pos)) {
-                if (direction2 == Direction.DOWN) {
-                    world.createAndScheduleBlockTick(pos, this, 2);
-                } else {
-                    world.createAndScheduleBlockTick(pos, this, 1);
-                }
-
-                return state;
-            } else {
-                boolean bl = state.get(THICKNESS) == Thickness.TIP_MERGE;
-                Thickness thickness = getThickness(world, pos, direction2, bl);
-                return (BlockState)state.with(THICKNESS, thickness);
-            }
-        }
-    }
 
     public void onProjectileHit(World world, BlockState state, BlockHitResult hit, ProjectileEntity projectile) {
         BlockPos blockPos = hit.getBlockPos();
@@ -184,7 +158,7 @@ public class ModFoolsBloodDripstone extends PointedDripstoneBlock {
     }
 
     public DamageSource getDamageSource() {
-        return DamageSource.FALLING_STALACTITE;
+        return DamageSource.STALAGMITE;
     }
 
     public Predicate<Entity> getEntityPredicate() {
