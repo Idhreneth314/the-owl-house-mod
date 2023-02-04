@@ -1,5 +1,4 @@
 package net.fabricmc.toh;
-
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.toh.block.ModBlocks;

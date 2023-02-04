@@ -1,6 +1,4 @@
 package net.fabricmc.toh.entity;
-
-
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.toh.entity.demon_realm.FeralBipedBeastEntity;
 import net.fabricmc.toh.toh;

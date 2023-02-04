@@ -1,5 +1,4 @@
 package net.fabricmc.toh.block;
-
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.toh.item.ModItemGroup;
@@ -17,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block TITANSTONE_SILVER_ORE = registerBlock("titanstone_silver_ore", new OreBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_GOLD_ORE)), ModItemGroup.DEMON_REALM_MISC);
-    public static final Block SILVER_ORE = registerBlock("silver_ore", new OreBlock(FabricBlockSettings.copy(Blocks.GOLD_ORE).of(Material.STONE).strength(3.0f).requiresTool()), ModItemGroup.DEMON_REALM_MISC);
+    public static final Block SILVER_ORE = registerBlock("silver_ore", new OreBlock(FabricBlockSettings.copy(Blocks.GOLD_ORE)), ModItemGroup.DEMON_REALM_MISC);
     public static final Block SILVER_BLOCK = registerBlock("silver_block", new Block(FabricBlockSettings.copy(Blocks.GOLD_BLOCK)), ModItemGroup.DEMON_REALM_MISC);
     static final Block RAW_SILVER_BLOCK = registerBlock("raw_silver_block", new Block(FabricBlockSettings.copy(Blocks.RAW_GOLD_BLOCK)), ModItemGroup.DEMON_REALM_MISC);
     public static final Block TITANSTONE_GOLD_ORE = registerBlock("titanstone_gold_ore", new OreBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_GOLD_ORE)), ModItemGroup.DEMON_REALM_MISC);

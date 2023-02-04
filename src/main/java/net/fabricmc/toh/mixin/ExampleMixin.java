@@ -1,5 +1,4 @@
 package net.fabricmc.toh.mixin;
-
 import net.fabricmc.toh.toh;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;

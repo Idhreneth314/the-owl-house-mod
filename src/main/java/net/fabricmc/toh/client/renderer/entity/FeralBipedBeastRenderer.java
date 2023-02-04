@@ -1,5 +1,4 @@
 package net.fabricmc.toh.client.renderer.entity;
-
 import net.fabricmc.toh.client.model.entity.FeralBipedBeastModel;
 import net.fabricmc.toh.entity.demon_realm.FeralBipedBeastEntity;
 import net.fabricmc.toh.toh;

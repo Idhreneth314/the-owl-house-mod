@@ -1,5 +1,4 @@
 package net.fabricmc.toh.item;
-
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.toh.toh;
 import net.minecraft.item.Item;

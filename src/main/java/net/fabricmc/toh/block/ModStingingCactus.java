@@ -1,5 +1,4 @@
 package net.fabricmc.toh.block;
-
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ai.pathing.NavigationType;

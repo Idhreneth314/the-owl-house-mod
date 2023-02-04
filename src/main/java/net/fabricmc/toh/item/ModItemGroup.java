@@ -1,5 +1,4 @@
 package net.fabricmc.toh.item;
-
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.toh.toh;
 import net.minecraft.item.ItemGroup;

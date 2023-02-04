@@ -1,5 +1,4 @@
 package net.fabricmc.toh.entity.demon_realm;
-
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;

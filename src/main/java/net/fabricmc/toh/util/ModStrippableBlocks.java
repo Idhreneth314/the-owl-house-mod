@@ -1,5 +1,4 @@
 package net.fabricmc.toh.util;
-
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.fabricmc.toh.block.ModBlocks;
 

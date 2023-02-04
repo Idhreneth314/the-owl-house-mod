@@ -1,5 +1,4 @@
 package net.fabricmc.toh.client.model.entity;
-
 import net.fabricmc.toh.entity.demon_realm.FeralBipedBeastEntity;
 import net.fabricmc.toh.toh;
 import net.minecraft.util.Identifier;
