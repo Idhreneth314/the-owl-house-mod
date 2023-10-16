@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "toh:prickly_fir_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "toh:prickly_fir_planks"
+  }
+}

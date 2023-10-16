@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+      "toh:titanstone_silver_ore",
+      "toh:silver_ore",
+      "toh:silver_block",
+      "toh:raw_silver_block",
+      "toh:titanstone_gold_ore",
+      "toh:titanstone_amethyst_ore",
+      "toh:titanstone_diamond_ore",
+      "toh:titanstone_emerald_ore",
+      "toh:titanstone_redstone_ore"
+  ]
+}

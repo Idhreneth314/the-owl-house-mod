@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "toh:block/mossy_titanstone_bricks"
+  }
+}

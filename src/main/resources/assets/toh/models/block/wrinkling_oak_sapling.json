@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "toh:block/wrinkling_oak_sapling"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "toh:silver_ore",
+    "toh:titanstone_silver_ore",
+    "toh:titanstone_gold_ore",
+    "toh:titanstone_coal_ore",
+    "toh:titanstone_amethyst_ore",
+    "toh:titanstone_diamond_ore",
+    "toh:titanstone_emerald_ore",
+    "toh:titanstone_lapis_ore",
+    "toh:titanstone_copper_ore",
+    "toh:titanstone_iron_ore",
+    "toh:titanstone_redstone_ore",
+    "toh:silver_block",
+    "toh:raw_silver_block",
+    "toh:titanstone",
+    "toh:fractured_titanstone",
+    "toh:titan_bone_block",
+    "toh:titan_marrow",
+    "toh:fools_blood_block"
+  ]
+}

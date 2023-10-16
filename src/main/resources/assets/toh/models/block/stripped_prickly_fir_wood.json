@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toh:block/stripped_prickly_fir_log",
+    "side": "toh:block/stripped_prickly_fir_log"
+  }
+}

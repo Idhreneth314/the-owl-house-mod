@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "toh:titanstone_lapis_ore",
+    "toh:titanstone_copper_ore",
+    "toh:titanstone_iron_ore"
+  ]
+}

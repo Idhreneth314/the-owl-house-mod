@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toh:block/bogwood_cypress_log",
+    "side": "toh:block/bogwood_cypress_log"
+  }
+}

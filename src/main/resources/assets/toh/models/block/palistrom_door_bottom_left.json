@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "toh:block/palistrom_door_bottom",
+    "top": "toh:block/palistrom_door_top"
+  }
+}

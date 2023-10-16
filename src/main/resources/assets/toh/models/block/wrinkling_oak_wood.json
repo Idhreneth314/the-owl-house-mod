@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toh:block/wrinkling_oak_log",
+    "side": "toh:block/wrinkling_oak_log"
+  }
+}

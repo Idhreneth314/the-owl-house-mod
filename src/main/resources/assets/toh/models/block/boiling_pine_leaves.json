@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "toh:block/boiling_pine_leaves"
+  }
+}

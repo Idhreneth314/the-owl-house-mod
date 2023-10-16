@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toh:block/prickly_fir_slab"
+    },
+    "type=double": {
+      "model": "toh:block/prickly_fir_planks"
+    },
+    "type=top": {
+      "model": "toh:block/prickly_fir_slab_top"
+    }
+  }
+}

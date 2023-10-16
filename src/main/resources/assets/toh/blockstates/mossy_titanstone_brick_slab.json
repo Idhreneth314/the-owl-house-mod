@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toh:block/mossy_titanstone_brick_slab"
+    },
+    "type=double": {
+      "model": "toh:block/mossy_titanstone_bricks"
+    },
+    "type=top": {
+      "model": "toh:block/mossy_titanstone_brick_slab_top"
+    }
+  }
+}

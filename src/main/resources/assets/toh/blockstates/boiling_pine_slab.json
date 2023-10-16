@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toh:block/boiling_pine_slab"
+    },
+    "type=double": {
+      "model": "toh:block/boiling_pine_planks"
+    },
+    "type=top": {
+      "model": "toh:block/boiling_pine_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "toh:block/wrinkling_oak_leaves"
+  }
+}

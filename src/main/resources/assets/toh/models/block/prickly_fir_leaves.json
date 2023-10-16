@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "toh:block/prickly_fir_leaves"
+  }
+}

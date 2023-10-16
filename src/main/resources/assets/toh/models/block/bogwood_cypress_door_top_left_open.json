@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "toh:block/bogwood_cypress_door_bottom",
+    "top": "toh:block/bogwood_cypress_door_top"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "toh:block/prickly_fir_planks"
+  }
+}

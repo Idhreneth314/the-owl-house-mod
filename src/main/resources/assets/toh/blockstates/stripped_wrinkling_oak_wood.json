@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "toh:block/stripped_wrinkling_oak_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "toh:block/stripped_wrinkling_oak_wood"
+    },
+    "axis=z": {
+      "model": "toh:block/stripped_wrinkling_oak_wood",
+      "x": 90
+    }
+  }
+}

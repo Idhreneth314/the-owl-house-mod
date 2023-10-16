@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "toh:block/palistrom_planks",
+    "side": "toh:block/palistrom_planks",
+    "top": "toh:block/palistrom_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toh:block/palistrom_log",
+    "side": "toh:block/palistrom_log"
+  }
+}

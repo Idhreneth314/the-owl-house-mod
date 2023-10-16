@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "toh:block/prickly_fir_planks",
+    "side": "toh:block/prickly_fir_planks",
+    "top": "toh:block/prickly_fir_planks"
+  }
+}

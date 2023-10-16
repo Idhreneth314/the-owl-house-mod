@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toh:block/titanstone_amethyst_ore"
+  }
+}
+

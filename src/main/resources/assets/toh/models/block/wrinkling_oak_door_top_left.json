@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "toh:block/wrinkling_oak_door_bottom",
+    "top": "toh:block/wrinkling_oak_door_top"
+  }
+}

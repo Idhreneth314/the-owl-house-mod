@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "toh:boiling_pine_log",
+    "toh:boiling_pine_wood",
+    "toh:wrinkling_oak_log",
+    "toh:wrinkling_oak_wood",
+    "toh:bogwood_cypress_log",
+    "toh:bogwood_cypress_wood",
+    "toh:bogwood_cypress_roots",
+    "toh:prickly_fir_log",
+    "toh:prickly_fir_wood",
+    "toh:palistrom_log",
+    "toh:palistrom_wood"
+  ]
+}

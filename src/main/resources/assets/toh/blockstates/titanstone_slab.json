@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toh:block/titanstone_slab"
+    },
+    "type=double": {
+      "model": "toh:block/titanstones"
+    },
+    "type=top": {
+      "model": "toh:block/titanstone_slab_top"
+    }
+  }
+}

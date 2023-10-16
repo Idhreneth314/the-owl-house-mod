@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "toh:block/wrinkling_oak_planks"
+  }
+}

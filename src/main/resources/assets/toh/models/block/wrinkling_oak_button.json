@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "toh:block/wrinkling_oak_planks"
+  }
+}

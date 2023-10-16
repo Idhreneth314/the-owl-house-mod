@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toh:block/bogwood_cypress_slab"
+    },
+    "type=double": {
+      "model": "toh:block/bogwood_cypress_planks"
+    },
+    "type=top": {
+      "model": "toh:block/bogwood_cypress_slab_top"
+    }
+  }
+}

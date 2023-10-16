@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "toh:block/flesh_block_eye_3",
+    "up": "toh:block/flesh_block_eye_3",
+    "north": "toh:block/flesh_block_eye_1",
+    "south": "toh:block/flesh_block_eye_3",
+    "east": "toh:block/flesh_block_eye_2",
+    "west": "toh:block/flesh_block_eye_3",
+    "particle": "toh:block/flesh_block"
+  }
+}

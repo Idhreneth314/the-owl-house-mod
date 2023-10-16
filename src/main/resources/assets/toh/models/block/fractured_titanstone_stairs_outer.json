@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "toh:block/fractured_titanstone",
+    "side": "toh:block/fractured_titanstone",
+    "top": "toh:block/fractured_titanstone"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "toh",
+  "version": "Beta 1.0.0",
+
+  "name": "The Owl House Mod",
+  "description": "This is a Fabric Mod inspired by Disney's The Owl House!",
+  "authors": [
+    "Idhreneth"
+  ],
+  "contact": {
+    "homepage": "https://toh-mc.fandom.com/wiki/The_Owl_House_Minecraft_Mod_Wiki",
+    "sources": "https://github.com/Idhreneth314/toh-mc-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/toh/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.toh.toh"
+    ],
+    "client": [
+      "net.fabricmc.toh.tohClient"
+    ]
+  },
+  "mixins": [
+    "toh.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

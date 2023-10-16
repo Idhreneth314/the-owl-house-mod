@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "toh:block/titan_bone_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "toh:block/titan_bone_block"
+    },
+    "axis=z": {
+      "model": "toh:block/titan_bone_block",
+      "x": 90
+    }
+  }
+}

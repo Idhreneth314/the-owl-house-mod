@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "toh:block/wrinkling_oak_pressure_plate"
+    },
+    "powered=true": {
+      "model": "toh:block/wrinkling_oak_pressure_plate_down"
+    }
+  }
+}

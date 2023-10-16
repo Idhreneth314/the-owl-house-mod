@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "toh:block/fools_blood_dripstone_up_tip"
+  }
+}

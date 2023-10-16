@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "toh:block/bile_cactus_bottom"
+    },
+    "half=upper": {
+      "model": "toh:block/bile_cactus_top"
+    }
+  }
+}

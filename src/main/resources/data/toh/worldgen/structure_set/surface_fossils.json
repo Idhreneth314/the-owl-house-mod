@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "toh:surface_fossils",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 77970221,
+    "spacing": 3,
+    "separation": 1
+  }
+}

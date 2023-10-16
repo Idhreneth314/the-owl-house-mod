@@ -1,0 +1,6 @@
+{
+  "parent": "toh:block/fools_blood_dripstone",
+  "textures": {
+    "cross": "toh:block/fools_blood_dripstone_down_tip_merge"
+  }
+}

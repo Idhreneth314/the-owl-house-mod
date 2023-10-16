@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toh:block/titan_bone_brick_slab"
+    },
+    "type=double": {
+      "model": "toh:block/titan_bone_bricks"
+    },
+    "type=top": {
+      "model": "toh:block/titan_bone_brick_slab_top"
+    }
+  }
+}
