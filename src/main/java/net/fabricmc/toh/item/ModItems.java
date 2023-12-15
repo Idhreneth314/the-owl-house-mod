@@ -40,49 +40,28 @@ public class ModItems {
     public static final Item HEX_MIX = registerItem("hex_mix",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.6f).build())));
     public static final Item WITCHS_WOOL_HOOD = registerItem("witchs_wool_hood",
-            new ArmorItem(ModArmorMaterials.WITCHS_WOOL, EquipmentSlot.HEAD, new Item.Settings()));
+            new ArmorItem(ModArmorMaterials.WITCHS_WOOL, ArmorItem.Type.HELMET, new Item.Settings()));
     public static final Item WITCHS_WOOL_CLOAK = registerItem("witchs_wool_cloak",
-            new ArmorItem(ModArmorMaterials.WITCHS_WOOL, EquipmentSlot.CHEST, new Item.Settings()));
+            new ArmorItem(ModArmorMaterials.WITCHS_WOOL, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
     public static final Item WITCHS_WOOL_LEGGINGS = registerItem("witchs_wool_leggings",
-            new ArmorItem(ModArmorMaterials.WITCHS_WOOL, EquipmentSlot.LEGS, new Item.Settings()));
+            new ArmorItem(ModArmorMaterials.WITCHS_WOOL, ArmorItem.Type.LEGGINGS, new Item.Settings()));
     public static final Item WITCHS_WOOL_BOOTS = registerItem("witchs_wool_boots",
-            new ArmorItem(ModArmorMaterials.WITCHS_WOOL, EquipmentSlot.FEET, new Item.Settings()));
+            new ArmorItem(ModArmorMaterials.WITCHS_WOOL, ArmorItem.Type.BOOTS, new Item.Settings()));
     public static final Item COVEN_GUARD_MASK = registerItem("coven_guard_mask",
-            new ArmorItem(ModArmorMaterials.COVEN_GUARD, EquipmentSlot.HEAD, new Item.Settings()));
+            new ArmorItem(ModArmorMaterials.COVEN_GUARD, ArmorItem.Type.HELMET, new Item.Settings()));
     public static final Item COVEN_GUARD_CLOAK = registerItem("coven_guard_cloak",
-            new ArmorItem(ModArmorMaterials.COVEN_GUARD, EquipmentSlot.CHEST, new Item.Settings()));
+            new ArmorItem(ModArmorMaterials.COVEN_GUARD, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
     public static final Item COVEN_GUARD_LEGGINGS = registerItem("coven_guard_leggings",
-            new ArmorItem(ModArmorMaterials.COVEN_GUARD, EquipmentSlot.LEGS, new Item.Settings()));
+            new ArmorItem(ModArmorMaterials.COVEN_GUARD, ArmorItem.Type.LEGGINGS, new Item.Settings()));
     public static final Item COVEN_GUARD_BOOTS = registerItem("coven_guard_boots",
-            new ArmorItem(ModArmorMaterials.COVEN_GUARD, EquipmentSlot.FEET, new Item.Settings()));
+            new ArmorItem(ModArmorMaterials.COVEN_GUARD, ArmorItem.Type.BOOTS, new Item.Settings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(toh.MOD_ID, name), item);
     }
 
-    public static void addItemsToItemGroups() {
-        ItemGroupEvents.modifyEntriesEvent(ModItemGroup.DEMON_REALM_MISC).register(entries -> entries.add(ModItems.RAW_SILVER));
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.RAW_SILVER);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.SILVER_INGOT);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.FOOLS_BLOOD_SHARD);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.WRINKLING_ACORN);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.PALISTROM_SAP);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.DEMON_MEAT);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.COOKED_DEMON_MEAT);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.GOREBERRY);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.POTATOE);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.CRABAPPLE);
-        addToItemGroup(ModItemGroup.DEMON_REALM_MISC, ModItems.HEX_MIX);
-    }
-
-    public static void addToItemGroup(ItemGroup group, Item item) {
-        ItemGroupEvents.modifyEntriesEvent(group).register(content -> {
-            content.add(item);
-        });
-    }
 
 
     public static void registerModItems() {
         toh.LOGGER.debug("Registering items for " + toh.MOD_ID);
-        addItemsToItemGroups();
     }
 }

@@ -3,7 +3,6 @@ package net.fabricmc.toh;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.toh.block.ModBlocks;
-import net.fabricmc.toh.item.ModGlyphItem;
 import net.fabricmc.toh.item.ModItemGroup;
 import net.fabricmc.toh.item.ModItems;
 import net.fabricmc.toh.util.ModFlammableBlocks;
@@ -19,12 +18,9 @@ public class toh implements ModInitializer {
 	public static final String MOD_ID = "toh";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	public static final ModGlyphItem GLYPH =
-			Registry.register(Registries.ITEM, new Identifier("toh", "glyph"),
-					new ModGlyphItem(new FabricItemSettings()));
 	@Override
 	public void onInitialize() {
-		ModItemGroup.registerItemGroup();
+		new ModItemGroup();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModFlammableBlocks.registerFlammableBlocks();

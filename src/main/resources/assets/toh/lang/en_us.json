@@ -179,6 +179,12 @@
   "block.toh.bile_cactus":"Bile Cactus",
 
 
-  "itemGroup.toh.miscellaneous": "Demon Realm Miscellaneous"
-
+  "itemGroup.toh.ingredients": "Demon Realm Ingredients",
+  "itemGroup.toh.combat": "Demon Realm Combat",
+  "itemGroup.toh.building_blocks": "Demon Realm Building Blocks",
+  "itemGroup.toh.natural_blocks": "Demon Realm Natural Blocks",
+  "itemGroup.toh.food_drinks": "Demon Realm Food & Drinks",
+  "itemGroup.toh.spawn_eggs": "Demon Realm Spawn Eggs",
+  "itemGroup.toh.tools_utilities": "Demon Realm Tools & Utilities",
+  "itemGroup.toh.magic": "Demon Realm Magic"
 }

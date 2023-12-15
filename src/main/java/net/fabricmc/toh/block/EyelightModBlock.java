@@ -13,6 +13,6 @@ public class EyelightModBlock extends CobwebBlock implements Waterloggable {
     @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockState blockState2 = world.getBlockState(pos.up());
-        return (blockState2.isOf(ModBlocks.FLESH_BLOCK) || blockState2.isOf(Blocks.STONE)) || blockState2.isOf(ModBlocks.TITANSTONE) && !world.getBlockState(pos.up()).getMaterial().isLiquid();
+        return (blockState2.isOf(ModBlocks.FLESH_BLOCK) || blockState2.isOf(Blocks.STONE)) || blockState2.isOf(ModBlocks.TITANSTONE);
     }
 }

@@ -117,15 +117,6 @@ public class ModFoolsBloodDripstone extends PointedDripstoneBlock {
     }
 
     @Override
-    public void onLandedUpon(World world, BlockState state, BlockPos pos, Entity entity, float fallDistance) {
-        if (state.get(VERTICAL_DIRECTION) == Direction.UP && state.get(THICKNESS) == Thickness.TIP) {
-            entity.handleFallDamage(fallDistance + 2.0f, 2.0f, DamageSource.STALAGMITE);
-        } else {
-            super.onLandedUpon(world, state, pos, entity, fallDistance);
-        }
-    }
-
-    @Override
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
         if (!ModFoolsBloodDripstone.canDrip(state)) {
             return;
@@ -192,7 +183,6 @@ public class ModFoolsBloodDripstone extends PointedDripstoneBlock {
         }
     }
 
-    @Override
     public PistonBehavior getPistonBehavior(BlockState state) {
         return PistonBehavior.DESTROY;
     }
@@ -253,12 +243,6 @@ public class ModFoolsBloodDripstone extends PointedDripstoneBlock {
         }
     }
 
-    @Override
-    public DamageSource getDamageSource(Entity attacker) {
-        return DamageSource.fallingStalactite(attacker);
-    }
-
-    @Override
     public Predicate<Entity> getEntityPredicate() {
         return EntityPredicates.EXCEPT_CREATIVE_OR_SPECTATOR.and(EntityPredicates.VALID_LIVING_ENTITY);
     }

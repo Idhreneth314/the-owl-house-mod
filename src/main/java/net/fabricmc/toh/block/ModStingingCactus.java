@@ -4,6 +4,7 @@ import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
@@ -84,19 +85,26 @@ public class ModStingingCactus extends CactusBlock {
 
     @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
-        for (Direction direction : Direction.Type.HORIZONTAL) {
-            BlockState blockState = world.getBlockState(pos.offset(direction));
-            Material material = blockState.getMaterial();
-            if (!material.isSolid() && !world.getFluidState(pos.offset(direction)).isIn(FluidTags.LAVA)) continue;
-            return false;
-        }
-        BlockState blockState2 = world.getBlockState(pos.down());
-        return (blockState2.isOf(ModBlocks.STINGING_CACTUS) || blockState2.isOf(Blocks.SAND) || blockState2.isOf(Blocks.RED_SAND)) && !world.getBlockState(pos.up()).getMaterial().isLiquid();
+        Iterator var4 = Direction.Type.HORIZONTAL.iterator();
+
+        Direction direction;
+        BlockState blockState;
+        do {
+            if (!var4.hasNext()) {
+                BlockState blockState2 = world.getBlockState(pos.down());
+                return (blockState2.isOf(Blocks.CACTUS) || blockState2.isIn(BlockTags.SAND)) && !world.getBlockState(pos.up()).isLiquid();
+            }
+
+            direction = (Direction)var4.next();
+            blockState = world.getBlockState(pos.offset(direction));
+        } while(!blockState.isSolid() && !world.getFluidState(pos.offset(direction)).isIn(FluidTags.LAVA));
+
+        return false;
     }
 
     @Override
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-        entity.damage(DamageSource.CACTUS, 1.0f);
+        entity.damage(world.getDamageSources().cactus(), 1.0f);
     }
 
     @Override
