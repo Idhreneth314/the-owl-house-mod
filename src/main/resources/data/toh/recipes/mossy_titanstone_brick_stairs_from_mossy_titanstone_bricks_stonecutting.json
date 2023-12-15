@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "toh:mossy_titanstone_bricks"
+  },
+  "result": "toh:mossy_titanstone_brick_stairs"
+}

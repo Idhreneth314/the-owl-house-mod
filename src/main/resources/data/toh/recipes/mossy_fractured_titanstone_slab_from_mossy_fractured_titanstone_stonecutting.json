@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "toh:mossy_fractured_titanstone"
+  },
+  "result": "toh:mossy_fractured_titanstone_slab"
+}

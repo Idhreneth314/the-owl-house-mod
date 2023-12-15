@@ -4,7 +4,7 @@
       "model": "toh:block/fractured_titanstone_slab"
     },
     "type=double": {
-      "model": "toh:block/fractured_titanstones"
+      "model": "toh:block/fractured_titanstone"
     },
     "type=top": {
       "model": "toh:block/fractured_titanstone_slab_top"

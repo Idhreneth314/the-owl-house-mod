@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "toh:boiling_pine_planks",
+    "toh:wrinkling_oak_planks",
+    "toh:palistrom_planks",
+    "toh:prickly_fir_planks",
+    "toh:bogwood_cypress_planks"
+
+  ]
+}

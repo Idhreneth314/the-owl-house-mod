@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "toh:fractured_titanstone"
+  },
+  "result": "toh:fractured_titanstone_stairs"
+}

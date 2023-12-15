@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "toh:titan_bone_block"
+  },
+  "result": "toh:titan_bone_brick_wall"
+}

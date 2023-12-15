@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "toh:titanstone"
+  },
+  "result": "toh:titanstone_brick_slab"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "toh:prickly_fir_planks"
+    }
+  ],
+  "result": {
+    "item": "toh:prickly_fir_button"
+  }
+}

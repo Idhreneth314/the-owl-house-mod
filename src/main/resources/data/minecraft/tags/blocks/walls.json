@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "toh:titanstone_brick_wall"
+    "toh:titanstone_brick_wall",
+    "toh:titan_bone_brick_wall",
+    "toh:fractured_titanstone_brick_wall",
+    "toh:mossy_titanstone_brick_wall",
+    "toh:mossy_fractured_titanstone_brick_wall"
   ]
 }

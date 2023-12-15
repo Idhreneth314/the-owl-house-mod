@@ -4,7 +4,7 @@
       "model": "toh:block/titanstone_slab"
     },
     "type=double": {
-      "model": "toh:block/titanstones"
+      "model": "toh:block/titanstone"
     },
     "type=top": {
       "model": "toh:block/titanstone_slab_top"
