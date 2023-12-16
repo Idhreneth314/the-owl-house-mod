@@ -142,6 +142,7 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.TITANSTONE_COAL_ORE);
                         entries.add(ModBlocks.TITANSTONE_IRON_ORE);
+                        entries.add(ModBlocks.TITANSTONE_COPPER_ORE);
                         entries.add(ModBlocks.SILVER_ORE);
                         entries.add(ModBlocks.TITANSTONE_SILVER_ORE);
                         entries.add(ModBlocks.TITANSTONE_GOLD_ORE);
@@ -150,6 +151,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.TITANSTONE_AMETHYST_ORE);
                         entries.add(ModBlocks.TITANSTONE_LAPIS_ORE);
                         entries.add(ModBlocks.TITANSTONE_DIAMOND_ORE);
+
+                        entries.add(ModBlocks.RAW_SILVER_BLOCK);
 
                         entries.add(ModBlocks.BOILING_PINE_LOG);
                         entries.add(ModBlocks.WRINKLING_OAK_LOG);
@@ -209,6 +212,7 @@ public class ModItemGroup {
     public static ItemGroup MAGIC = Registry.register(Registries.ITEM_GROUP, new Identifier(toh.MOD_ID, "magic"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.toh.magic"))
                     .icon(() -> new ItemStack(ModItems.PALISTROM_SAP)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.GLYPH_INSCRIBER);
                         entries.add(ModItems.PALISTROM_SAP);
                         entries.add(ModItems.WITCHS_WOOL_HOOD);
                         entries.add(ModItems.WITCHS_WOOL_CLOAK);

@@ -20,10 +20,11 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
+
     public static final Block TITANSTONE_SILVER_ORE = registerBlock("titanstone_silver_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_GOLD_ORE)));
     public static final Block SILVER_ORE = registerBlock("silver_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.GOLD_ORE).strength(3.0f).requiresTool()));
     public static final Block SILVER_BLOCK = registerBlock("silver_block", new Block(FabricBlockSettings.copy(Blocks.GOLD_BLOCK)));
-    static final Block RAW_SILVER_BLOCK = registerBlock("raw_silver_block", new Block(FabricBlockSettings.copy(Blocks.RAW_GOLD_BLOCK)));
+    public static final Block RAW_SILVER_BLOCK = registerBlock("raw_silver_block", new Block(FabricBlockSettings.copy(Blocks.RAW_GOLD_BLOCK)));
     public static final Block TITANSTONE_GOLD_ORE = registerBlock("titanstone_gold_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_GOLD_ORE)));
     public static final Block TITANSTONE_COAL_ORE = registerBlock("titanstone_coal_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_COAL_ORE), UniformIntProvider.create(3, 5)));
     public static final Block TITANSTONE_AMETHYST_ORE = registerBlock("titanstone_amethyst_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.AMETHYST_BLOCK), UniformIntProvider.create(3, 5)));
@@ -41,6 +42,8 @@ public class ModBlocks {
     public static final Block BOILING_PINE_WOOD = registerBlock("boiling_pine_wood", new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD)));
     public static final Block STRIPPED_BOILING_PINE_LOG = registerBlock("stripped_boiling_pine_log", new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)));
     public static final Block STRIPPED_BOILING_PINE_WOOD = registerBlock("stripped_boiling_pine_wood", new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block GLYPH_INSCRIBER = registerBlock("glyph_inscriber", new CraftingTableBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+
     public static final Block BOILING_PINE_PLANKS = registerBlock("boiling_pine_planks", new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block BOILING_PINE_LEAVES = registerBlock("boiling_pine_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)));
     public static final Block BOILING_PINE_SAPLING = registerBlock("boiling_pine_sapling", new SaplingBlock(new BoilingPineSaplingGenerator(), FabricBlockSettings.copy(Blocks.SPRUCE_SAPLING)));

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "toh:block/wrinkling_oak_planks",
+    "east": "toh:block/glyph_inscriber_side",
+    "north": "toh:block/glyph_inscriber_front",
+    "particle": "toh:block/glyph_inscriber_front",
+    "south": "toh:block/glyph_inscriber_front",
+    "up": "toh:block/glyph_inscriber_top",
+    "west": "toh:block/glyph_inscriber_side"
+  }
+}
